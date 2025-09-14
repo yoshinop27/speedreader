@@ -34,15 +34,14 @@ public class WordGenerator {
     
     public String next() throws IOException {
         count++;
-        if (this.text.next().contains(".") || 
-            this.text.next().contains("?") ||
-            this.text.next().contains("!") ||
-            this.text.next().contains("!") ||
-            this.text.next().contains("!"))
+        String word = this.text.next();
+        if (word.contains(".") || 
+            word.contains("?") ||
+            word.contains("!"))
         {
             sentences++;
         }
-        return this.text.next();
+        return word;
     }
 
     public int getWordCount() throws IOException {
