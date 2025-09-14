@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 import java.lang.String;
+import java.awt.*;
 
 public class WordGenerator {
     String filename;
@@ -12,10 +13,15 @@ public class WordGenerator {
     Scanner text;
 
     public static void main(String[] args) throws IOException{
-        WordGenerator generator = new WordGenerator("text"); 
-        for (int i=0; i<5; i++){
-            System.out.println(generator.next());
-        }
+        // WordGenerator generator = new WordGenerator("text"); 
+        // for (int i=0; i<5; i++){
+        //     System.out.println(generator.next());
+        // }
+        DrawingPanel panel = new DrawingPanel(400, 300);
+        Graphics g = panel.getGraphics();
+        Font f = new Font("Courier", Font.BOLD, 46);
+        g.setFont(f);
+        g.drawString("Hello World!", 100, 100);
     }
 
     public WordGenerator(String filename) throws IOException {
