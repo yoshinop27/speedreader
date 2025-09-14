@@ -12,7 +12,7 @@ public class WordGenerator {
     int sentences;
     Scanner text;
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException, InterruptedException{
         // WordGenerator generator = new WordGenerator("text"); 
         // for (int i=0; i<5; i++){
         //     System.out.println(generator.next());
@@ -21,7 +21,22 @@ public class WordGenerator {
         Graphics g = panel.getGraphics();
         Font f = new Font("Courier", Font.BOLD, 46);
         g.setFont(f);
-        g.drawString("Hello World!", 100, 100);
+
+        WordGenerator generator = new WordGenerator("text"); 
+
+        while(generator.hasNext()) {
+            String word = generator.next();
+
+            // clear panel
+            g.setColor(Color.WHITE);
+            g.fillRect(0, 0, 400, 300);
+
+            // print word
+            g.setColor(Color.BLACK);
+            g.drawString(word, 100, 100);
+
+            Thread.sleep(1000);
+        }
     }
 
     public WordGenerator(String filename) throws IOException {
