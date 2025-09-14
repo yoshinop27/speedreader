@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 import java.lang.String;
-import java.awt.*;
 
 public class WordGenerator {
     String filename;
@@ -14,10 +13,10 @@ public class WordGenerator {
 
     public static void main(String[] args) throws IOException{
         WordGenerator generator = new WordGenerator("text"); 
-        // for (int i=0; i<5; i++){
-        //     System.out.println(generator.next());
+        for (int i=0; i<5; i++){
+            System.out.println(generator.next());
         }
-    
+    }
 
     public WordGenerator(String filename) throws IOException {
         this.text = new Scanner(new File(filename));
@@ -35,14 +34,15 @@ public class WordGenerator {
     
     public String next() throws IOException {
         count++;
-        String lword = this.text.next();
-        if (lword.contains(".") || 
-            lword.contains("?") ||
-            lword.contains("!"))
+        if (this.text.next().contains(".") || 
+            this.text.next().contains("?") ||
+            this.text.next().contains("!") ||
+            this.text.next().contains("!") ||
+            this.text.next().contains("!"))
         {
             sentences++;
         }
-        return lword;
+        return this.text.next();
     }
 
     public int getWordCount() throws IOException {
@@ -53,20 +53,3 @@ public class WordGenerator {
         return this.sentences;
     }
 }
-
-// public class DrawingPanel {
-//     public DrawingPanel(int width, int height) {
-//         this.width = width;
-//         this.height = height;
-//     }
-
-//     public Graphics getGraphics() {
-//         return this.getGraphics();
-//     }
-
-//     public void setFont(Font f) {
-//         this.setFont(f);
-//     }
-
-//     public
-// }
