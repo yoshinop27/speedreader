@@ -22,7 +22,7 @@ public class WordGenerator {
         Font f = new Font("Courier", Font.BOLD, 46);
         g.setFont(f);
 
-        WordGenerator generator = new WordGenerator("text"); 
+        WordGenerator generator = new WordGenerator("corpus/black_death.txt"); 
 
         while(generator.hasNext()) {
             String word = generator.next();
