@@ -62,7 +62,7 @@ All excerpts are included in this repository as .txt files under the `corpus` fo
 | Excerpt 4 | 500 | Participant 2 | 2/5 |
 
 ## Analysis of Results
-Our participants demonstrated that they were able to comprehend what they were reading with our speed reader. They answered around 80% of questions correctly at 250 and 350 WPM, as well as in the control condition where they read the text from a regular text file. This indicates that their comprehension was similar whether they were using the speed reader or not. However, after the reading speed exceeds a certain point, comprehension decreased, with participants answering only about 20% of questions correctly at 500 WPM.
+Our participants demonstrated that they were able to comprehend what they were reading with our speed reader. They answered around 80% of questions correctly at 250 and 350 WPM, as well as in the control condition where they read the text from a regular text file. This indicates that their comprehension was similar whether they were using the speed reader or not. However, after the reading speed exceeded a certain point, comprehension decreased, with participants answering only about 20% of questions correctly at 500 WPM.
 
 
 
