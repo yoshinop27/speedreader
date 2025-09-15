@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 import java.lang.String;
-import java.awt.*;
 
 public class WordGenerator {
     String filename;

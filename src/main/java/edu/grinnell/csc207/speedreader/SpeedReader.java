@@ -1,7 +1,5 @@
 package edu.grinnell.csc207.speedreader;
 
-import java.util.Scanner;
-import java.io.File;
 import java.io.IOException;
 import java.lang.String;
 import java.awt.*;
@@ -15,7 +13,7 @@ public class SpeedReader {
     public static int wpm;
 
     // Main class will take filename, width, height, font-size, wpm
-    static void main(String[] args) throws IOException, InterruptedException, IllegalArgumentException {
+    public static void main(String[] args) throws IOException, InterruptedException, IllegalArgumentException {
 
         // error checking
         if (args.length != 5){
@@ -49,7 +47,7 @@ public class SpeedReader {
             g.setColor(Color.BLACK);
             g.drawString(word, width/2, height/2);
 
-            Thread.sleep(wpm);
+            Thread.sleep(60000/wpm);
         }
     }
 }
