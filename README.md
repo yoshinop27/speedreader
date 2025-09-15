@@ -46,19 +46,19 @@ All excerpts are included in this repository as .txt files under the `corpus` fo
 - **Question 5:**  What leaves no space for private life?   *A: Terror*
 
 ## Participants
-- Participant 1: Name, Grinnell Email  
+- Participant 1: Mitchell Baek, baekmitc@grinnell.edu 
 - Participant 2: Name, Grinnell Email   
 
 ## Quiz Results
 | Text | WPM/Regular | Participant | Score / Result |
 |---------|---|------------|----------------|
-| Excerpt 1 | WPM | Participant 1 | … |
+| Excerpt 1 | 300 | Participant 1 | 4/5 |
 | Excerpt 1 | WPM | Participant 2 | … |
-| Excerpt 2 | WPM | Participant 1 | … |
+| Excerpt 2 | 350 | Participant 1 | 5/5 |
 | Excerpt 2 | WPM | Participant 2 | … |
-| Excerpt 3 | WPM | Participant 1 | … |
+| Excerpt 3 | Regular | Participant 1 | 4/5 |
 | Excerpt 3 | WPM | Participant 2 | … |
-| Excerpt 4 | WPM | Participant 1 | … |
+| Excerpt 4 | 500 | Participant 1 | 2/5 |
 | Excerpt 4 | WPM | Participant 2 | … |
 
 ## Analysis of Results
