@@ -47,24 +47,22 @@ All excerpts are included in this repository as .txt files under the `corpus` fo
 
 ## Participants
 - Participant 1: Mitchell Baek, baekmitc@grinnell.edu 
-- Participant 2: Name, Grinnell Email   
+- Participant 2: Adyasha Anindita, anindita@grinnell.edu
 
 ## Quiz Results
 | Text | WPM/Regular | Participant | Score / Result |
 |---------|---|------------|----------------|
 | Excerpt 1 | 300 | Participant 1 | 4/5 |
-| Excerpt 1 | WPM | Participant 2 | … |
+| Excerpt 1 | 250 | Participant 2 | 4/5 |
 | Excerpt 2 | 350 | Participant 1 | 5/5 |
-| Excerpt 2 | WPM | Participant 2 | … |
+| Excerpt 2 | 350 | Participant 2 | 3/5 |
 | Excerpt 3 | Regular | Participant 1 | 4/5 |
-| Excerpt 3 | WPM | Participant 2 | … |
+| Excerpt 3 | Regular | Participant 2 | 3/5 |
 | Excerpt 4 | 500 | Participant 1 | 2/5 |
-| Excerpt 4 | WPM | Participant 2 | … |
+| Excerpt 4 | 500 | Participant 2 | 2/5 |
 
 ## Analysis of Results
-*(Brief paragraph summarizing and analyzing the quiz results.)*
-
-
+Our participants demonstrated that they were able to comprehend what they were reading with our speed reader. They answered around 80% of questions correctly at 250 and 350 WPM, as well as in the control condition where they read the text from a regular text file. This indicates that their comprehension was similar whether they were using the speed reader or not. However, after the reading speed exceeds a certain point, comprehension decreased, with participants answering only about 20% of questions correctly at 500 WPM.
 
 
 
