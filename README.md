@@ -50,7 +50,7 @@ All excerpts are included in this repository as .txt files under the `corpus` fo
 - Participant 2: Name, Grinnell Email   
 
 ## Quiz Results
-| Text | WPM | Participant | Score / Result |
+| Text | WPM/Regular | Participant | Score / Result |
 |---------|---|------------|----------------|
 | Excerpt 1 | WPM | Participant 1 | … |
 | Excerpt 1 | WPM | Participant 2 | … |
