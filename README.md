@@ -2,6 +2,12 @@
 ### Meryem, Preston, Z
 *This speed-reading program uses the RSVP (Rapid Serial Visual Presentation) technique which we use with a small corpus of excerpts to run small user tests on effectiveness. Completed as a [CSC-207 assignment](osera.cs.grinnell.edu/ttap/data-structures-labs/speed-reader.html).*
 
+## Resources
++   Project write-up
+    - <https://osera.cs.grinnell.edu/ttap/data-structures-labs/speed-reader.html>
++    VS Code
++    Java version "17.0.16"
+
 ## Corpus
 All excerpts are included in this repository as .txt files under the `corpus` folder:  
 - `ancient_greece.txt` --- [source](https://en.wikipedia.org/wiki/Ancient_Greece)
