@@ -16,8 +16,6 @@ public class SpeedReader {
     public static int fontSize;
     public static int wpm;
 
-    // Main class will take filename, width, height, font-size, wpm
-
     /**
      * Initializes speed reader by reading arguments and starting the display
      * @param args command-line arguments in the following order:
