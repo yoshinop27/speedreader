@@ -1,10 +1,14 @@
 package edu.grinnell.csc207.speedreader;
 
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
 import java.io.IOException;
-import java.lang.String;
-import java.awt.*;
-import java.lang.Integer;
 
+/**
+ * The SpeedReader class runs a speed reading application.
+ * It initializes a drawing panel and displays words from a WordGenerator.
+ */
 public class SpeedReader {
     // setting up our global variables
     public static int width;
@@ -13,11 +17,23 @@ public class SpeedReader {
     public static int wpm;
 
     // Main class will take filename, width, height, font-size, wpm
+
+    /**
+     * Initializes speed reader by reading arguments and starting the display
+     * @param args command-line arguments in the following order:
+     *               <filename> – name of the text file with words (ex. silk_road.txt)
+     *               <width> – drawing panel width
+     *               <height> – drawing panel height
+     *               <fontsize> – font size for displayed words
+     *               <wpm> – words per minute speed
+     */
+     
     public static void main(String[] args) throws IOException, InterruptedException, IllegalArgumentException {
 
         // error checking
         if (args.length != 5){
-            throw new IllegalArgumentException("Five arguments are required.");
+            throw new IllegalArgumentException
+                ("Five arguments are required. Please input <filename> <width> <height> <font size> <wpm> \n ");
         }
 
         // initialize are vars using cml args
@@ -47,6 +63,7 @@ public class SpeedReader {
             g.setColor(Color.BLACK);
             g.drawString(word, width/2, height/2);
 
+            // sleep
             Thread.sleep(60000/wpm);
         }
     }
